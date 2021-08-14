@@ -1,7 +1,8 @@
-# 
-#
-#
-#
+# https://github.com/anii-3301
+# With great Power comes Great responsibility.
+# Python Libraries used: requests,pandas,colorama,argparse.
+# Scrapes the Exploitdb csv file and 'GETs' the data
+# Coded by anirudh (Part of RedTribe)
 
 try:
     import requests
@@ -87,3 +88,6 @@ if args.output:
         file.write(dfAsString)
 
     print(Fore.GREEN+f"[+] Data Saved as '{path}' successfully.")
+
+    
+# Thank you for reading the code! cheers and happy Hacking! <3
