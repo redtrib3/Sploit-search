@@ -29,6 +29,22 @@
 
   ```
   
-  
+ ## Sample Output:
+ ```
+ elon@ubuntu:~$ py sploit.py --search vsftpd
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                file                                        description        date                     author    type  platform port  |
+|0         exploits/linux/dos/5814.pl  "vsftpd 2.0.5 - 'CWD' (Authenticated) Remote M...  2008-06-14        "Praveen Darshanam"     dos     linux       |
+|1         exploits/linux/dos/16270.c                 "vsftpd 2.3.2 - Denial of Service"  2011-03-02  "Maksymilian Arciemowicz"     dos     linux       |
+|2      exploits/windows/dos/31818.sh  "vsftpd 2.0.5 - 'deny_file' Option Remote Deni...  2008-05-21              "Martin Nagy"     dos   windows       |
+|3      exploits/windows/dos/31819.pl  "vsftpd 2.0.5 - 'deny_file' Option Remote Deni...  2008-05-21        "Praveen Darshanam"     dos   windows       |
+|4      exploits/unix/remote/17491.rb  "vsftpd 2.3.4 - Backdoor Command Execution (Me...  2011-07-05                 Metasploit  remote      unix       |
+|5  exploits/multiple/remote/49719.py          "vsftpd 3.0.3 - Remote Denial of Service"  2021-03-29                    xynmaps  remote  multiple       |
+|6      exploits/unix/remote/49757.py        "vsftpd 2.3.4 - Backdoor Command Execution"  2021-04-12                 HerculesRD  remote      unix       |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[i]  7 Exploits found .
+ 
+ ```
   ## ThankYou ! Happy Hacking
  [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com) 
