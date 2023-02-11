@@ -5,8 +5,8 @@
   This cli-app uses some webscraping in order to find the exploit .
 
 ## But why?
-  Try searching for exploits of wordpress, or any other publicily vulnerable services.  
-  I use this script during CTF's in order to find known exploits.
+  Try searching for exploits of wordpress, or any other publicly vulnerable service.  
+  I use this script for CTF's to find known exploits.
 
 ## ~ Syntax 
   ```
