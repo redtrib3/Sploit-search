@@ -29,6 +29,13 @@
 
   ```
   
+ ## INSTALL:
+ 
+  ```
+  git clone https://github.com/redtrib3/Sploit-search.git
+  cd Sploit-search/
+  pip install -r requirements.txt
+  ```
  ## Sample Output:
  ```
  elon@ubuntu:~$ py sploit.py --search vsftpd
