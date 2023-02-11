@@ -10,8 +10,6 @@ except ImportError:
     Print("Module Requirements Not satisfied.\n > pip install -r requirements.txt")
 
 
-
-
 # ARGPARSE 
 epi ='''Examples:
             1. python3 sploit.py -s wordpress
@@ -40,9 +38,9 @@ def borderit(text):
 
 
 
-# Get the Raw data from Github (/offensive-ecurity)
+# Get the Raw data from Github (/offensive-security fork)
 
-r = requests.get("https://raw.githubusercontent.com/offensive-security/exploitdb/master/files_exploits.csv")
+r = requests.get("https://raw.githubusercontent.com/blackorbird/exploit-database/master/files_exploits.csv")
 data = r.text
 data = data.split('\n')
 
