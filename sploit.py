@@ -1,8 +1,5 @@
-# https://github.com/anii-3301
-# With great Power comes Great responsibility.
+# https://github.com/redtrib3
 # Python Libraries used: requests,pandas,colorama,argparse.
-# Scrapes the Exploitdb csv file and 'GETs' the data
-# Coded by anirudh (Part of RedTribe)
 
 try:
     import requests
